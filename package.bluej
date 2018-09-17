@@ -1,4 +1,5 @@
 #BlueJ package file
+<<<<<<< HEAD
 dependency1.from=AnimatedActor
 dependency1.to=Animation
 dependency1.type=UsesDependency
@@ -22,6 +23,31 @@ dependency7.to=Block
 dependency7.type=UsesDependency
 dependency8.from=MyStage
 dependency8.to=RightBlock
+=======
+dependency1.from=MyStage
+dependency1.to=Dog
+dependency1.type=UsesDependency
+dependency2.from=MyStage
+dependency2.to=Block
+dependency2.type=UsesDependency
+dependency3.from=MyStage
+dependency3.to=RightBlock
+dependency3.type=UsesDependency
+dependency4.from=GravityActor
+dependency4.to=Block
+dependency4.type=UsesDependency
+dependency5.from=GravityActor
+dependency5.to=RightBlock
+dependency5.type=UsesDependency
+dependency6.from=Lab5Runner
+dependency6.to=MyStage
+dependency6.type=UsesDependency
+dependency7.from=MovableAnimatedActor
+dependency7.to=Animation
+dependency7.type=UsesDependency
+dependency8.from=AnimatedActor
+dependency8.to=Animation
+>>>>>>> e6d662e993b650ac39aa2355e2d51c9a1f2a8f99
 dependency8.type=UsesDependency
 dependency9.from=Lab5Runner
 dependency9.to=MyStage
@@ -36,9 +62,15 @@ package.divider.horizontal=0.6
 package.divider.vertical=0.8241525423728814
 package.editor.height=771
 package.editor.width=844
+<<<<<<< HEAD
 package.editor.x=854
 package.editor.y=72
 package.frame.height=1044
+=======
+package.editor.x=100
+package.editor.y=100
+package.frame.height=1047
+>>>>>>> e6d662e993b650ac39aa2355e2d51c9a1f2a8f99
 package.frame.width=974
 package.numDependencies=9
 package.numTargets=10
