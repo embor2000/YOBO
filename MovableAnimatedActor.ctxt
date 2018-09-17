@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=MovableAnimatedActor
+comment1.params=
+comment1.target=MovableAnimatedActor()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MovableAnimatedActor\r\n
+comment2.params=
+comment2.target=void\ update()
+comment3.params=ani
+comment3.target=void\ setWalkRightAnimation(Animation)
+comment4.params=ani
+comment4.target=void\ setWalkLeftAnimation(Animation)
+comment5.params=ani
+comment5.target=void\ setIdleAnimation(Animation)
+numComments=6
