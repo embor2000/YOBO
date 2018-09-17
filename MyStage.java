@@ -21,15 +21,26 @@ public class MyStage extends Stage {
     	dog = new Dog();
     	addActor(dog, 400, 300);
     	block = new Block();
-    	addActor(block, 525, 600);
+    	addActor(block, 528, 600);
     	block = new Block();
     	addActor(block, 400, 600);
+    	block = new Block();
+    	addActor(block, 656, 600);
+    	block = new Block();
+    	addActor(block, 272, 600);
     	rblock = new RightBlock();
-    	addActor(rblock, 500, 500);
+    	addActor(block, 400, 600);
+    	block = new Block();
+    	addActor(block, 784, 600);
+    	block = new Block();
+    	addActor(block, 144, 471);
+    	block = new Block();
+    	addActor(block, 16, 471);
     }
     
     public void update()
     {
+        
     }
     
 }
