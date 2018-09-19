@@ -26,7 +26,7 @@ public class GravityActor extends Actor
      Actor[] touching = getTouching();
         for (Actor Dog : touching)
         {
-            if(Dog instanceof Block)
+            if(Dog instanceof Block||Dog instanceof RightBlock||Dog instanceof LeftBlock)
             {
                 return true;
             }
@@ -34,12 +34,39 @@ public class GravityActor extends Actor
         
         return false;
     }
+    public boolean isCornerGrounded()
+    {
+        
+     Actor[] touching = getTouching();
+        for (Actor Dog : touching)
+        {
+            if(Dog instanceof RightBlock||Dog instanceof LeftBlock)
+            {
+                return true;
+            }
+        }  
+        
+        return false;
+    }
+    
     public boolean rightIsBlocked()
     {
         Actor[] touching = getTouching();
         for (Actor Dog : touching)
         {
             if(Dog instanceof RightBlock)
+            {
+                return true;
+            }
+        }  
+        return false;
+    }
+    public boolean leftIsBlocked()
+    {
+        Actor[] touching = getTouching();
+        for (Actor Dog : touching)
+        {
+            if(Dog instanceof LeftBlock)
             {
                 return true;
             }
@@ -54,10 +81,17 @@ public class GravityActor extends Actor
         {
             move(2, "South");
         }
-        if(rightIsBlocked())
+        
+         if(rightIsBlocked())
         {
             move(4, "West");
         }
+       
+         if(leftIsBlocked())
+        {
+            move(4, "East");
+        }
+       
     }
     
     
