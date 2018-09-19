@@ -1,4 +1,5 @@
 #BlueJ package file
+<<<<<<< HEAD
 dependency1.from=Lab5Runner
 dependency1.to=MyStage
 dependency1.type=UsesDependency
@@ -31,11 +32,39 @@ dependency8.to=LeftBlock
 dependency8.type=UsesDependency
 dependency9.from=GravityActor
 dependency9.to=Block
+=======
+dependency1.from=MovableAnimatedActor
+dependency1.to=Animation
+dependency1.type=UsesDependency
+dependency2.from=AnimatedActor
+dependency2.to=Animation
+dependency2.type=UsesDependency
+dependency3.from=Dog
+dependency3.to=Animation
+dependency3.type=UsesDependency
+dependency4.from=MyStage
+dependency4.to=Dog
+dependency4.type=UsesDependency
+dependency5.from=MyStage
+dependency5.to=Block
+dependency5.type=UsesDependency
+dependency6.from=MyStage
+dependency6.to=RightBlock
+dependency6.type=UsesDependency
+dependency7.from=GravityActor
+dependency7.to=Block
+dependency7.type=UsesDependency
+dependency8.from=GravityActor
+dependency8.to=RightBlock
+dependency8.type=UsesDependency
+dependency9.from=Lab5Runner
+dependency9.to=MyStage
+>>>>>>> 3605b9edbc93850a0e37815cffe32488888cfd2c
 dependency9.type=UsesDependency
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=552
+editor.fx.0.y=100
 objectbench.height=159
 objectbench.width=934
 package.divider.horizontal=0.6

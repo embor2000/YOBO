@@ -16,9 +16,9 @@ public class LeftBlock extends Actor
      */
     public LeftBlock()
     {
-        
-      setPicture("img/Tiles/6.png");
-     
+      Picture p = new Picture("img/Tiles/6.png");
+      p.resize(50,50);
+      setPicture(p);
     }
     
     public void update()

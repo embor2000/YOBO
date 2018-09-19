@@ -17,13 +17,14 @@ public class RightBlock extends Actor
     public RightBlock()
     {
         
-      setPicture("img/Tiles/4.png");
-     
+      Picture p = new Picture("img/Tiles/4.png");
+      p.resize(50,50);
+      setPicture(p);
     }
     
     public void update()
     {
-    	
+        
     }
     
 }

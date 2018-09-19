@@ -2,6 +2,12 @@
 comment0.target=MyStage
 comment1.params=
 comment1.target=MyStage()
-comment2.params=
-comment2.target=void\ update()
-numComments=3
+comment2.params=height\ xCoord
+comment2.target=void\ createPillar(int,\ int)
+comment3.params=xCoord\ yCoord
+comment3.target=void\ makePlatform(int,\ int)
+comment4.params=
+comment4.target=void\ setWorld()
+comment5.params=
+comment5.target=void\ update()
+numComments=6

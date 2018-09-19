@@ -16,7 +16,9 @@ public class Block extends Actor
      */
     public Block()
     {
-      setPicture("img/Tiles/2.png");
+       Picture p = new Picture("img/Tiles/2.png");
+      p.resize(50,50);
+      setPicture(p);
     }
     
     public void update()
